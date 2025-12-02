@@ -121,13 +121,9 @@ public class Wordle {
                 guess = inp.readString();
                 
                 if (guess.length() != 5) 
-                {
                     System.out.println("Invalid word. Please try again.");
-                }
                 else 
-                {
                     valid = true;
-                }
             }
 
             storeGuess(guess, guesses, attempt);
