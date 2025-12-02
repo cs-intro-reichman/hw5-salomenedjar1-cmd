@@ -40,11 +40,9 @@ public class Wordle {
                 if  (containsChar(secret, guess.charAt(i))== true)
                     resultRow[i]= 'Y';
                 else 
-                    resultRow[i]= '_';
-
-        System.out.print(resultRow[i]);       
+                    resultRow[i]= '_';     
         }
-        System.out.println();
+        
     }
 
     // Store guess string (chars) into the given row of guesses 2D array.
